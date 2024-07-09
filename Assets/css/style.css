@@ -1,0 +1,153 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: indigo;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* apply style to <header> */
+header {
+    padding: 20px 35px;
+    background-color: greenyellow;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: midnightblue;
+    margin: 0;
+    display: inline;
+}
+header a {
+    text-decoration: none;
+    color: midnightblue;
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+section {
+    padding: 60px;
+}
+/* hero style start */
+.hero {
+    background-image: url(../images/hero-bg.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* hero style end */
+.hero-form {
+    border: 3px solid black;
+    background-color: yellow;
+    padding: 20px;
+    width: 500px;
+    color: darkgreen;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid violet;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: saddlebrown;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    color: darkgreen;
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.intro {
+    text-align: center;
+}
+.intro p {
+    line-height: 1.7;
+    color: darkgreen;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.steps {
+    text-align: center;
+    background-color: palegoldenrod;
+}
+.steps div {
+    margin-bottom: 80px;
+}
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3 {
+    color: indigo;
+    font-size: 46px;
+    margin-top: 10px;
+}
+.steps p {
+    color: darkslategrey;
+    font-size: 23px;
+}
+.steps span {
+    font-size: 38px;
+}
+.section-title {
+    font-size: 55px;
+    color: dimgrey;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.primary-border {
+    border-color: chocolate;
+}
+.secondary-border {
+    border-color: black;
+}
+footer {
+    background: yellowgreen;
+    width: 100%;
+    padding: 40px 35px;
+}
+footer h2 {
+    display: inline;
+    color: darkgreen;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: blue;
+}
